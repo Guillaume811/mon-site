@@ -2,6 +2,7 @@ import React from 'react';
 import './App.css';
 import Title from './components/Title/Title';
 import Todolist from './components/Todolist/Todolist';
+import SimpleForm from './components/simpleForm/SimpleForm';
 
 
 function App() {
