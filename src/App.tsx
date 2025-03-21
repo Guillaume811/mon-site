@@ -14,8 +14,8 @@ function App() {
   return (
     <ThemeProvider>
       <Navbar />
-      {routing}
       <ThemeToggle />
+      {routing}
     </ThemeProvider>
   );
 }
