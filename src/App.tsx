@@ -1,19 +1,13 @@
 import React from 'react';
 import './App.css';
-import Title from './components/Title/Title';
-import Todolist from './components/Todolist/Todolist';
+import { useRoutes } from 'react-router-dom';
+import routes from './routes/routes';
 
-
+// Return mes routes
+// TODO: se renseigner sur 'ThemeProvider' et 'AuthProvider'
 function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <Title title='TO-DO LIST' />
-        <Todolist />
-      </header>
-      
-    </div>
-  );
+  const element = useRoutes(routes);
+  return element;
 }
 
 export default App;
