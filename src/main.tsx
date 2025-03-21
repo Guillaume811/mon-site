@@ -7,6 +7,7 @@ import { BrowserRouter } from 'react-router-dom';
 
 const container = document.getElementById('root');
 
+// Permet d'afficher l'erreur si root n'existe pas
 if (!container) {
   throw new Error("Impossible de trouver l'élément root dans le HTML.");
 }
